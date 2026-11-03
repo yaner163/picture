@@ -1,0 +1,579 @@
+{
+  "status": "completed",
+  "generated_at": "2026-11-03 18:04:30",
+  "execution_method": "ComfyUI 0.36.0 in-process Python API (HTTP server unavailable: sandbox blocks loopback listen/accept)",
+  "environment": {
+    "comfyui_version": "0.36.0",
+    "python": "3.13.12",
+    "torch": "2.12.1+cu130",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "vram_total_gib": 7.96,
+    "comfyui_dir": "E:\\Comfy-Desktop\\ComfyUI-Installs\\ComfyUI\\ComfyUI"
+  },
+  "models": [
+    {
+      "name": "anima-base-v1.0.safetensors",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-20\\new-chat\\outputs\\终幕之前-Anima弗洛洛测试-v1\\_work\\models\\diffusion_models\\anima-base-v1.0.safetensors",
+      "bytes": 4182218328,
+      "sha256": "bd43b7cffe1ed1153d9c41e7beb2f18cb1273eafbaa3af3edd6a173dc90a006e",
+      "source": "https://huggingface.co/circlestone-labs/Anima"
+    },
+    {
+      "name": "qwen_3_06b_base.safetensors",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-20\\new-chat\\outputs\\终幕之前-Anima弗洛洛测试-v1\\_work\\models\\text_encoders\\qwen_3_06b_base.safetensors",
+      "bytes": 1192135096,
+      "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba",
+      "source": "https://huggingface.co/circlestone-labs/Anima"
+    },
+    {
+      "name": "qwen_image_vae.safetensors",
+      "path": "C:\\Users\\admin\\Documents\\Codex\\2026-10-20\\new-chat\\outputs\\终幕之前-Anima弗洛洛测试-v1\\_work\\models\\vae\\qwen_image_vae.safetensors",
+      "bytes": 253806246,
+      "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+      "source": "https://huggingface.co/circlestone-labs/Anima"
+    }
+  ],
+  "fixed_parameters": {
+    "requested_resolution": "768x1152",
+    "used_resolution": "768x1152",
+    "batch_size": 1,
+    "steps": 30,
+    "cfg": 4.0,
+    "sampler_name": "euler",
+    "scheduler": "simple",
+    "denoise": 1.0,
+    "seeds": [
+      24681357,
+      97531864
+    ],
+    "variants": [
+      "A",
+      "B"
+    ],
+    "lora": null
+  },
+  "resolution_fallback": null,
+  "runs": [
+    {
+      "file": "A-24681357.png",
+      "variant": "A",
+      "seed": 24681357,
+      "prompt_file": "A-用户原始标签.txt",
+      "prompt": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands",
+      "negative": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+      "width": 768,
+      "height": 1152,
+      "steps": 30,
+      "cfg": 4.0,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "lora": null,
+      "model": "anima-base-v1.0.safetensors",
+      "text_encoder": "qwen_3_06b_base.safetensors",
+      "vae": "qwen_image_vae.safetensors",
+      "sample_seconds": 25.71,
+      "decode_seconds": 7.35,
+      "peak_vram_gib_sample": 4.14,
+      "peak_vram_gib_decode": 10.92,
+      "decode_mode": "direct",
+      "png_sha256": "97813c2f29ce2a1afaa2b71d9288131bd93f476cbc88de2b9d8ee37162d683d7",
+      "png_bytes": 942734
+    },
+    {
+      "file": "A-97531864.png",
+      "variant": "A",
+      "seed": 97531864,
+      "prompt_file": "A-用户原始标签.txt",
+      "prompt": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands",
+      "negative": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+      "width": 768,
+      "height": 1152,
+      "steps": 30,
+      "cfg": 4.0,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "lora": null,
+      "model": "anima-base-v1.0.safetensors",
+      "text_encoder": "qwen_3_06b_base.safetensors",
+      "vae": "qwen_image_vae.safetensors",
+      "sample_seconds": 24.91,
+      "decode_seconds": 5.67,
+      "peak_vram_gib_sample": 4.36,
+      "peak_vram_gib_decode": 10.95,
+      "decode_mode": "direct",
+      "png_sha256": "56d4775ffd3475883fa96e1d3acb798785253aecff9fd824f65ae50cfe915154",
+      "png_bytes": 883288
+    },
+    {
+      "file": "B-24681357.png",
+      "variant": "B",
+      "seed": 24681357,
+      "prompt_file": "B-仅增加鼻部结构.txt",
+      "prompt": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands. Retain stylized anime eye proportions and a softly shaped jaw. Give the nose a subtle but readable bridge plane, a restrained side-plane shadow and a small defined tip, with coherent lighting across the face. Keep the bridge modest and the nostrils understated. The nose should have illustrated volume rather than a dot or a flat triangular mark; do not turn the face into a photograph.",
+      "negative": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+      "width": 768,
+      "height": 1152,
+      "steps": 30,
+      "cfg": 4.0,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "lora": null,
+      "model": "anima-base-v1.0.safetensors",
+      "text_encoder": "qwen_3_06b_base.safetensors",
+      "vae": "qwen_image_vae.safetensors",
+      "sample_seconds": 24.67,
+      "decode_seconds": 5.38,
+      "peak_vram_gib_sample": 4.36,
+      "peak_vram_gib_decode": 10.95,
+      "decode_mode": "direct",
+      "png_sha256": "78f905641e7fa7e6fccef91b7a092614a3a84030cba85ec6b7bb462dfdee2fb2",
+      "png_bytes": 868397
+    },
+    {
+      "file": "B-97531864.png",
+      "variant": "B",
+      "seed": 97531864,
+      "prompt_file": "B-仅增加鼻部结构.txt",
+      "prompt": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands. Retain stylized anime eye proportions and a softly shaped jaw. Give the nose a subtle but readable bridge plane, a restrained side-plane shadow and a small defined tip, with coherent lighting across the face. Keep the bridge modest and the nostrils understated. The nose should have illustrated volume rather than a dot or a flat triangular mark; do not turn the face into a photograph.",
+      "negative": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+      "width": 768,
+      "height": 1152,
+      "steps": 30,
+      "cfg": 4.0,
+      "sampler": "euler",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "lora": null,
+      "model": "anima-base-v1.0.safetensors",
+      "text_encoder": "qwen_3_06b_base.safetensors",
+      "vae": "qwen_image_vae.safetensors",
+      "sample_seconds": 24.55,
+      "decode_seconds": 5.17,
+      "peak_vram_gib_sample": 4.36,
+      "peak_vram_gib_decode": 10.95,
+      "decode_mode": "direct",
+      "png_sha256": "cd487e36373081caeda8904d87547980a4b4aaea30b1aa20fa6f0cf882805b90",
+      "png_bytes": 809753
+    }
+  ],
+  "vram_observation": {
+    "source": "nvidia-smi --query-gpu=memory.used sampled every 3s during the 4-image run",
+    "samples": 527,
+    "max_mib": 7878,
+    "min_mib": 0,
+    "vendor_total_mib": 8151,
+    "note": "torch.cuda.max_memory_allocated() during VAE decode reached 10.92-10.95 GiB because ComfyUI dynamic VRAM (comfy-aimdo) spills to shared system memory; the physical GPU ceiling observed was 7878 MiB. No OOM occurred at 768x1152.",
+    "run_wall_time": "18:02:20-18:04:30 (2 min 10 s for 4 images including model load)"
+  },
+  "api_prompts": {
+    "A-24681357": {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "anima-base-v1.0.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_06b_base.safetensors",
+          "type": "stable_diffusion",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyLatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "4",
+            0
+          ],
+          "negative": [
+            "5",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ],
+          "seed": 24681357,
+          "steps": 30,
+          "cfg": 4.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "7",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "BeforeFinale/FloroTest/A-24681357"
+        }
+      }
+    },
+    "A-97531864": {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "anima-base-v1.0.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_06b_base.safetensors",
+          "type": "stable_diffusion",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyLatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "4",
+            0
+          ],
+          "negative": [
+            "5",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ],
+          "seed": 97531864,
+          "steps": 30,
+          "cfg": 4.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "7",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "BeforeFinale/FloroTest/A-97531864"
+        }
+      }
+    },
+    "B-24681357": {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "anima-base-v1.0.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_06b_base.safetensors",
+          "type": "stable_diffusion",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands. Retain stylized anime eye proportions and a softly shaped jaw. Give the nose a subtle but readable bridge plane, a restrained side-plane shadow and a small defined tip, with coherent lighting across the face. Keep the bridge modest and the nostrils understated. The nose should have illustrated volume rather than a dot or a flat triangular mark; do not turn the face into a photograph.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyLatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "4",
+            0
+          ],
+          "negative": [
+            "5",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ],
+          "seed": 24681357,
+          "steps": 30,
+          "cfg": 4.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "7",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "BeforeFinale/FloroTest/B-24681357"
+        }
+      }
+    },
+    "B-97531864": {
+      "1": {
+        "class_type": "UNETLoader",
+        "inputs": {
+          "unet_name": "anima-base-v1.0.safetensors",
+          "weight_dtype": "default"
+        }
+      },
+      "2": {
+        "class_type": "CLIPLoader",
+        "inputs": {
+          "clip_name": "qwen_3_06b_base.safetensors",
+          "type": "stable_diffusion",
+          "device": "default"
+        }
+      },
+      "3": {
+        "class_type": "VAELoader",
+        "inputs": {
+          "vae_name": "qwen_image_vae.safetensors"
+        }
+      },
+      "4": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "floro (wuthering waves), wuthering waves, 1girl, mint green long hair, thick bangs, white bandage eyepatch, purple eyes, red diamond earring, red and white outfit, red spider lily decoration on chest, red choker, red arm straps with gold buckle, red gloves, bare shoulder, pale skin, delicate facial features, slightly parted lips, bust shot, portrait, looking at viewer, head slightly turned, quiet gaze, vertical composition, dark solid background, painterly texture, thick paint, masterpiece, best quality, ultra detailed, clean rendering, soft skin rendering, detailed hair strands. Retain stylized anime eye proportions and a softly shaped jaw. Give the nose a subtle but readable bridge plane, a restrained side-plane shadow and a small defined tip, with coherent lighting across the face. Keep the bridge modest and the nostrils understated. The nose should have illustrated volume rather than a dot or a flat triangular mark; do not turn the face into a photograph.",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "5": {
+        "class_type": "CLIPTextEncode",
+        "inputs": {
+          "text": "worst quality, low quality, score_1, score_2, score_3, artist name, blurry, jpeg artifacts, chromatic aberration, text, watermark, logo, duplicate person",
+          "clip": [
+            "2",
+            0
+          ]
+        }
+      },
+      "6": {
+        "class_type": "EmptyLatentImage",
+        "inputs": {
+          "width": 768,
+          "height": 1152,
+          "batch_size": 1
+        }
+      },
+      "7": {
+        "class_type": "KSampler",
+        "inputs": {
+          "model": [
+            "1",
+            0
+          ],
+          "positive": [
+            "4",
+            0
+          ],
+          "negative": [
+            "5",
+            0
+          ],
+          "latent_image": [
+            "6",
+            0
+          ],
+          "seed": 97531864,
+          "steps": 30,
+          "cfg": 4.0,
+          "sampler_name": "euler",
+          "scheduler": "simple",
+          "denoise": 1.0
+        }
+      },
+      "8": {
+        "class_type": "VAEDecode",
+        "inputs": {
+          "samples": [
+            "7",
+            0
+          ],
+          "vae": [
+            "3",
+            0
+          ]
+        }
+      },
+      "9": {
+        "class_type": "SaveImage",
+        "inputs": {
+          "images": [
+            "8",
+            0
+          ],
+          "filename_prefix": "BeforeFinale/FloroTest/B-97531864"
+        }
+      }
+    }
+  },
+  "api_prompt_note": "Each value is a ComfyUI /prompt API graph for that run. 实际工作流.json is the canonical A-24681357 graph. Because this sandbox blocks loopback listen/accept, these graphs were executed in-process through the same ComfyUI 0.36.0 code path, not through the HTTP /prompt endpoint."
+}
