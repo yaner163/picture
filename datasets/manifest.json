@@ -19,5 +19,12 @@
   "uploaded": 216,
   "parts": 11,
   "updated": "2026-11-05 17:41"
+ },
+ "round_01": {
+  "dir": "_work\\train\\dataset_flora_loop\\round_01",
+  "images": 100,
+  "uploaded": 100,
+  "parts": 5,
+  "updated": "2026-11-05 17:42"
  }
 }
