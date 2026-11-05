@@ -1,10 +1,10 @@
 {
  "style_ref": {
   "dir": "_work\\train\\dataset_style_ref\\10_style",
-  "images": 200,
-  "uploaded": 200,
-  "parts": 10,
-  "updated": "2026-11-05 10:24"
+  "images": 318,
+  "uploaded": 318,
+  "parts": 16,
+  "updated": "2026-11-05 14:03"
  },
  "refs_1999": {
   "dir": "_work\\refs_external\\重返未来1999",
