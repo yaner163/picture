@@ -1,0 +1,13 @@
+这一边只记公开姿势和来源，不存放从网页扒下来的别人的照片。
+生成图在上一级的日期目录里。
+
+对照时看这几件事：全身、两只脚底正对镜头、低机位、足心可见、皮肤有汗光。
+不要脚的侧面，不要脚底出画。
+
+姿势名来自公开标签页，不是图片文件：
+- wariza / 鸭子坐：https://tags.latent.moe/en/t/wariza
+- soles / 脚底：https://tags.latent.moe/en/t/soles
+- barefoot：https://tags.latent.moe/en/t/barefoot
+- arched soles、foot focus：https://aiaicreate.com/sd-prompt-feet/
+
+人物保持 21 到 42 岁的成年女性。不用校服，不用学生脸。
